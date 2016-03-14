@@ -1,0 +1,6 @@
+{
+	"id":"lamp-credential",
+	"mysql_passwd": "change me",
+	"server.com.key":"input here",
+	"server.com.crt":"input here"
+}

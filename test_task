@@ -1,0 +1,14 @@
+Chef test runlist requirements:
+- LAMP server based on CentOS
+- Tomcat (Jetty) + Jenkins (deployed as war to app server)
+- 8080 port denied, "/jenkins" traffic should be routed via apache/nginx as reverse proxy via 443 SSL, 80 port redirecting to SSL
+- As the root app, phpinfo.php should be available in both 80 and 443 ports
+- Hardening
+- Foodcritic
+- Tests (rspec, kitchen)
+- Results expected in GitHub repository
+
+[13:17:37] Dmytro Kryvenko: - Foodcritic
+- Tests (rspec, kitchen)
+
+вот эти пункты интересуют больше всего
