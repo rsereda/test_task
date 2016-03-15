@@ -2,7 +2,7 @@
 # Cookbook Name:: test-cook
 # Recipe:: default
 #
-# Copyright 2016, Thomas_Cook
+# Copyright 2016, Test for TC LTD
 #
 # All rights reserved - Do Not Redistribute
 
